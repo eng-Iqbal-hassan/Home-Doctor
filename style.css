@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 3.125rem 12.5rem 0;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+}
+ul li:not(:last-child)  {
+    margin-right: 3.125rem;
+}
