@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <div class="menu-item">
+        <div class="menu-items">
             <div class="logo-wrapper">
                 <svg width="168" height="77" viewBox="0 0 168 77" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -169,7 +169,7 @@
                 </a>
             </li>
         </ul>
-        <div class="logo">
+        <div class="menu-icon">
             <svg width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <rect width="44" height="32" fill="url(#pattern0)"/>
                 <defs>
@@ -211,14 +211,14 @@
                 <div class="img">
                     <img src="assets/card1.png" alt="Expert">
                 </div>
-                <h3>Expert</h3>
+                <h4>Expert</h4>
                 <p>We review independently before any partnerships - getting you the unbiased right answer every time</p>
             </div>
             <div class="card">
                 <div class="img">
                     <img src="assets/card2.png" alt="Honest">
                 </div>
-                <h3>Honest</h3>
+                <h4>Honest</h4>
                 <p>
                     That sometimes means recommending that you don't buy the product at all. No other product recommendation site does that
                 </p>
@@ -227,7 +227,7 @@
                 <div class="img">
                     <img src="assets/card3.png" alt="Independent">
                 </div>
-                <h3>Independent</h3>
+                <h4>Independent</h4>
                 <p>
                     We are not part of a public company or funded by venture capital, which means unlike our
                     competitors, we have no pressure to maximize our profits. Instead, we are 100% focused on your
@@ -238,7 +238,7 @@
                 <div class="img">
                     <img src="assets/card4.png" alt="User Centered">
                 </div>
-                <h3>User centered</h3>
+                <h4>User centered</h4>
                 <p>
                     Our experts are compensated based only on your happiness with their recommendations, meaning their
                     incentives are aligned with yours
@@ -285,24 +285,24 @@
         <div class="contact-us">
             <h3>Contact Us</h3>
             <p>If you have any additional questions or suggestings, don’t hesitate to leave your message here</p>
-            <div class="form-field">
+            <div class="contact-us-wrapper">
                 <form>
                     <div class="input-group">
-                        <div class="input-field input-field-name">
+                        <div class="input-field">
                             <label for="name">Name</label>
-                            <div class="form-group name">
-                                <input type="text" id="name" name="name" placeholder="ex: Henry" />
+                            <div class="form-control name">
+                                <input class="form-group" type="text" id="name" name="name" placeholder="ex: Henry" />
                             </div>
                         </div>
-                        <div class="input-field input-field-email">
+                        <div class="input-field">
                             <label for="email">Email</label>
-                            <div class="form-group email">
-                                <input type="email" id="email" name="email" placeholder="ex: Henry@mail.com">
+                            <div class="form-control email">
+                                <input class="form-group" type="email" id="email" name="email" placeholder="ex: Henry@mail.com">
                             </div>
                         </div>
                     </div>
                     <label for="message">Message</label>
-                    <div class="form-group">
+                    <div class="form-control">
                         <textarea id="message" name="message" placeholder="ex: I love your company so much!"></textarea>
                     </div>
                     <button type="submit">Send</button>
